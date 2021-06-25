@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glow Skin "
+        android:textColor="#804D4D"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_120sdp">
+    </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_25sdp">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hai Glowers"
+        android:textColor="#804D4D"
+        android:textStyle="bold"
+        android:textSize="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_15sdp">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="0dp"
+        app:alignmentMode="alignMargins"
+        app:columnCount="2"
+        app:rowCount="1">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_tapskin"
+        android:layout_width="144dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="17dp"
+        app:cardElevation="17dp"
+        app:layout_columnWeight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="Cari Tahu Tipe \nKulit Yuk"
+                android:textAlignment="center"
+                android:textColor="#804D4D"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:src="@drawable/face"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="@dimen/_54sdp"
+                android:layout_height="@dimen/_54sdp"
+                android:layout_gravity="center_horizontal"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/buttonmulai"
+                android:text="Mulai"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="#804D4D"
+                android:textStyle="normal"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                ></androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_dos"
+            android:layout_width="144dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="17dp"
+            app:cardElevation="17dp"
+            app:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Lihat Tips \nDari Kita"
+                    android:textAlignment="center"
+                    android:textColor="#804D4D"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/dos"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/_54sdp"
+                    android:layout_height="@dimen/_54sdp" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/buttonmulai"
+                    android:text="Mulai"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#804D4D"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah ada BPOM ?"
+        android:textColor="#804D4D"
+        android:textStyle="normal"
+        android:textSize="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="0dp"
+        app:alignmentMode="alignMargins"
+        app:columnCount="1"
+        app:rowCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_cari"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="17dp"
+            app:cardElevation="17dp"
+            app:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="Cek Sekarang"
+                    android:textAlignment="center"
+                    android:textColor="#804D4D"
+                    android:textSize="@dimen/_24sdp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/buttonmulai"
+                    android:text="Mulai"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#804D4D"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_28sdp"
+                    android:layout_gravity="center_vertical"
+                    ></androidx.appcompat.widget.AppCompatTextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignBottom="@+id/deskripsi"
+    android:fillViewport="true"
+    tools:context="com.example.glowskin.activity.JenisKulit"
+    android:background="@drawable/beranda"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glow Skin"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_38sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_gravity="center_horizontal">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_nama_kulit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kulit Normal "
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_28sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_110sdp"
+            android:layout_gravity="left">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_alignBottom="@+id/deskripsi"
+            android:fillViewport="true">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_deskripsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do’s:\nPakai moisturizer untuk melembapkan wajah\nTidur teratur setiap hari untuk menjaga kelembapan kulit\nPakai toner yang alcohol-free\nExfoliate secara teratur untuk menghilangkan sel kulit mati\n
+Don’t’s :\nHindari penggunaan produk yang menyebabkan kulit kering\nHindari produk yang membuat kulit terasa greasy atau berminyak\nTidak disarankan untuk berlama-lama mandi dengan air panas\nJangan terlalu sering membersihkan wajah "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="@dimen/_18sdp">
+            </androidx.appcompat.widget.AppCompatTextView>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

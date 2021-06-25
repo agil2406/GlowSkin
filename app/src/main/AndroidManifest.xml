@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.glowskin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GlowSkin">
+        <activity android:name=".activity.HasilKombinasi"></activity>
+        <activity android:name=".activity.HasilBerminyak" />
+        <activity android:name=".activity.Kuis5" />
+        <activity android:name=".activity.Kuis4" />
+        <activity android:name=".activity.Kuis3" />
+        <activity android:name=".activity.Kuis2" />
+        <activity android:name=".activity.HitungSkor" />
+        <activity android:name=".activity.HasilKering" />
+        <activity android:name=".activity.HasilNormal" />
+        <activity android:name=".activity.Kuis1" />
+        <activity android:name=".activity.JenisKulit" />
+        <activity android:name=".activity.Produk" />
+        <activity android:name=".activity.SplashScreen" />
+        <activity android:name=".activity.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Register" />
+        <activity android:name=".activity.NavgationBar" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

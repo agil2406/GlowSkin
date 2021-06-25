@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "779425969754",
+    "project_id": "glowskin-a2510",
+    "storage_bucket": "glowskin-a2510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779425969754:android:5a51b8d13ddbe5dc348a63",
+        "android_client_info": {
+          "package_name": "com.example.glowskin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779425969754-2ppu1lp3oiss4vman99ld1f1pevo2d99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMo7JZhJWzxeXjvcMa5UT32f4cs811Fqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779425969754-2ppu1lp3oiss4vman99ld1f1pevo2d99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

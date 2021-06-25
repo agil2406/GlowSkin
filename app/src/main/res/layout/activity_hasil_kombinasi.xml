@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kulitkombinasi"
+    android:orientation="vertical"
+    tools:context=".activity.HasilKombinasi">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginLeft="@dimen/_240sdp"
+        android:layout_marginTop="@dimen/_25sdp">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_130sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_gravity="left"
+        android:text="Kulit Kombinasi :"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="@dimen/_28sdp"
+        >
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <TextView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Kulit kombinasi mempunyai dua atau lebih tipe kulit di wajah, enderung berminyak di satu area dan kering di area lainnya. Banyak yang salah mengira kalau mereka mempunyai tipe kulit berminyak padahal sebenarnya mempunyai kulit kombinasi.Kulit berminyak cenderung berkilau di semua area pada wajah, sementara kulit kombinasihanya di bagian T-Zone (dahi, dagu dan hidung) dan kering pada area pipi."
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

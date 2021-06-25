@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.Login">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glow Skin "
+        android:textColor="#804D4D"
+        android:textStyle="bold"
+        android:textSize="@dimen/_36sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_gravity="center_horizontal">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/email"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:paddingLeft="@dimen/_8sdp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Email"
+        android:background="@drawable/edittextwarna"
+        android:textColorHint="@color/text"
+        android:textStyle="normal"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_80sdp">
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:paddingLeft="@dimen/_8sdp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextwarna"
+        android:textColorHint="@color/text"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password2"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:paddingLeft="@dimen/_8sdp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ulangi Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextwarna"
+        android:textColorHint="@color/text"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center_horizontal"
+        android:text="Daftar"
+        android:textStyle="normal"
+        android:background="@drawable/buttonwarna"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_50sdp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/punyaakun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun ? "
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center_horizontal"
+        >
+    </androidx.appcompat.widget.AppCompatTextView>
+
+
+</LinearLayout>
